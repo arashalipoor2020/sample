@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width">
+  <meta charset="UTF-8">
+</head>
+<style>
+.grid_style{
+  display:grid;
+  width:20rem;
+  height:18rem;
+  grid-template-columns:1fr 1fr 1fr;
+  border:2px solid #2bff58;
+  background-color:#aaffb5;
+}
+
+.grid_style > div{
+  width:6.7rem;
+  height:6rem;
+}
+
+.grid_style img{
+  width:100%;
+  height:100%;
+  object-fit:fill;
+}
+
+.grid_style video{
+  width:100%;
+  height:100%;
+}
+
+#itemA{
+  grid-column:1 / span 2;
+  width:13.4rem;
+}
+</style>
+<body>
+  <div class="grid_style">
+    <div id="itemA"><img src="https://www.datocms-assets.com/32926/1663951165-silanto-rose-2-ok.jpg" alt="rose"></div>
+    <div><img src="https://www.datocms-assets.com/32926/1643687933-flowercenterfabruary_ok_2.jpg" alt="tulip"></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</body>
+</html>
+
+
+
